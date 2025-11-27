@@ -7,12 +7,14 @@ body {
 main {
     flex-direction: row;
     flex:auto;
+    background-color: yellow;
 }
 article {
     flex:2;
 }
 aside {
     flex:1;
+    background-color: red;
 }
 article, aside {
     overflow-y: auto;
